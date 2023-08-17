@@ -24,7 +24,29 @@
 //   }
 // }
 // 숙제1();
-function 숙제2(params) {
-  return params.toString().length;
+// function 숙제2(params: string | number): number {
+//   console.log(params.toString().length);
+//   return params.toString().length;
+// }
+// 숙제2(245);
+function 결혼가능하냐(pay, house, score) {
+    var totalScore = 0;
+    totalScore += pay;
+    if (house === true) {
+        totalScore += 500;
+    }
+    else {
+        totalScore += 0;
+    }
+    if (score == '상') {
+        totalScore += 100;
+    }
+    else {
+        totalScore += 0;
+    }
+    if (totalScore >= 600) {
+        console.log('결혼 가능');
+        return '결혼가능';
+    }
 }
-숙제2(245);
+결혼가능하냐(100, false, '상');
