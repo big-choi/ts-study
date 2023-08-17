@@ -70,7 +70,7 @@ type Adult = { adult: boolean };
 type FullInfo = Test3 & Adult;
 
 let fullUserInfo: FullInfo = {
-    name : 'kim',
-    phone: 11234,
-    adult : true
+  name: 'kim',
+  phone: 11234,
+  adult: true,
 };

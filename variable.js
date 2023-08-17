@@ -21,5 +21,5 @@ var userInfo = {
 var fullUserInfo = {
     name: 'kim',
     phone: 11234,
-    adult: true
+    adult: true,
 };
