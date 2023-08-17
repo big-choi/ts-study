@@ -8,3 +8,18 @@ var 여친2 = {
     name: '앰버',
 };
 var position = { x: 10, y: 20 };
+var NewTestObj1 = { name: '김철수', age: 25, gender: '남' };
+var newTest2 = {
+    color: 'blue',
+    size: 15,
+    position: [1, 2, 3],
+};
+var userInfo = {
+    name: 'kim',
+    phone: 123,
+};
+var fullUserInfo = {
+    name: 'kim',
+    phone: 11234,
+    adult: true
+};
