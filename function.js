@@ -1,12 +1,11 @@
-function 내함수(x) {
-    if (typeof x === 'string') {
-        // x의 타입이 string 이면
-        return x + '1';
-    }
-    else {
-        return x + 1;
-    }
-}
+// function 내함수(x: number | string) {
+//   if (typeof x === 'string') {
+//     // x의 타입이 string 이면
+//     return x + '1';
+//   } else {
+//     return x + 1;
+//   }
+// }
 // assertion 문법
 function 내함수2(x) {
     var array = [];
