@@ -1,3 +1,4 @@
+"use strict";
 // // 변수만 만들면 :any가 자동 할당됨. 쉴드 해제 문법.
 // function 함수(x: number): number {
 //   //return 되는 값은 number 타입

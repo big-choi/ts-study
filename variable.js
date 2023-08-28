@@ -1,3 +1,4 @@
+"use strict";
 var 동물 = 'Panda';
 var 동물2 = { name: 'kim', age: 20 };
 var 여친 = {

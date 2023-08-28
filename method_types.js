@@ -1,3 +1,4 @@
+"use strict";
 var 함수타입2 = function () {
     return 1;
 };

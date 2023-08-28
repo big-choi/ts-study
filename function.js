@@ -1,3 +1,4 @@
+"use strict";
 // function 내함수(x: number | string) {
 //   if (typeof x === 'string') {
 //     // x의 타입이 string 이면
