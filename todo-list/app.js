@@ -9,16 +9,16 @@ var taskList = document.getElementById('taskList');
 // 할 일 추가 함수
 function addTask() {
     var text = taskInput.value.trim();
-    if (text) {
-        var newTask = {
-            id: tasks.length + 1,
-            text: text,
-            completed: false,
-        };
-        tasks.push(newTask);
-        taskInput.value = '';
-        renderTask(newTask);
-    }
+    if (!text)
+        return;
+    var newTask = {
+        id: tasks.length + 1,
+        text: text,
+        completed: false,
+    };
+    tasks.push(newTask);
+    taskInput.value = '';
+    renderTask(newTask);
 }
 // 할 일 렌더링 함수
 function renderTask(task) {

@@ -18,16 +18,17 @@ const taskList = document.getElementById('taskList') as HTMLUListElement;
 // 할 일 추가 함수
 function addTask() {
   const text = taskInput.value.trim();
-  if (text) {
-    const newTask: Task = {
-      id: tasks.length + 1,
-      text,
-      completed: false,
-    };
-    tasks.push(newTask);
-    taskInput.value = '';
-    renderTask(newTask);
-  }
+  if (!text) return;
+
+  const newTask: Task = {
+    id: tasks.length + 1,
+    text,
+    completed: false,
+  };
+
+  tasks.push(newTask);
+  taskInput.value = '';
+  renderTask(newTask);
 }
 
 // 할 일 렌더링 함수
