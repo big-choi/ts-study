@@ -1,0 +1,62 @@
+.todo-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* 제목 스타일 */
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 입력 필드 스타일 */
+#taskInput {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* 추가 버튼 스타일 */
+#addTask {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#addTask:hover {
+  background-color: #0056b3;
+}
+
+/* 할 일 목록 스타일 */
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* 체크박스 스타일 */
+input[type='checkbox'] {
+  margin-right: 10px;
+}
+
+/* 완료된 할 일의 스타일 */
+input[type='checkbox']:checked + label {
+  text-decoration: line-through;
+  color: #888;
+}
